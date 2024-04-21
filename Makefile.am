@@ -2,8 +2,9 @@ noinst_PROGRAMS =	table-socketmap
 
 table_socketmap_SOURCES = table_socketmap.c dict.c log.c table_stdio.c util.c
 
-AM_CFLAGS =
 LDADD =			$(LIBOBJS)
+
+dist_man5_MANS =	table-socketmap.5
 
 smtpdir =		${prefix}/libexec/smtpd
 
