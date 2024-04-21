@@ -24,9 +24,24 @@ table(5).
 
 # SEE ALSO
 
-table(5),
 smtpd.conf(5),
+table(5),
 smtpctl(8),
 smtpd(8)
 
-Nixpkgs - February 4, 2014
+# HISTORY
+
+The first version of
+**table\_socketmap**
+was written in 2014.
+It was converted to the stdio table protocol in 2024.
+
+# AUTHORS
+
+**table\_socketmap**
+was initially written by
+Gilles Chehade &lt;[gilles@poolp.org](mailto:gilles@poolp.org)&gt;.
+The conversion to the stdio protocol was done by
+Omar Polo &lt;[op@openbsd.org](mailto:op@openbsd.org)&gt;.
+
+Nixpkgs - April 21, 2024
