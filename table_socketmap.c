@@ -36,11 +36,11 @@
 
 #define	REPLYBUFFERSIZE	100000
 
-static char	       *config;
-static int		sock = -1;
-static int		connected = 0;
-static FILE	       *sockstream;
-static char		repbuffer[REPLYBUFFERSIZE+1];
+static char		*config;
+static int		 sock = -1;
+static int		 connected = 0;
+static FILE		*sockstream;
+static char		 repbuffer[REPLYBUFFERSIZE+1];
 
 enum socketmap_reply{
 	SM_OK = 0,
