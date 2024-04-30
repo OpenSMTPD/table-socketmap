@@ -38,7 +38,7 @@
 
 static char		*config;
 static int		 sock = -1;
-static int		 connected = 0;
+static int		 connected;
 static FILE		*sockstream;
 static char		 repbuffer[REPLYBUFFERSIZE+1];
 
