@@ -1,3 +1,5 @@
+SUBDIRS =		openbsd-compat
+
 noinst_PROGRAMS =	table-socketmap
 
 table_socketmap_SOURCES = table_socketmap.c dict.c log.c table_stdio.c util.c
